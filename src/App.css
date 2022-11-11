@@ -1,9 +1,30 @@
 /* Add styling for your page here */
 
 .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: wrap;
 
 }
-
+h1{
+    text-align: center;
+}
 .BakeryItem {
-  
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.Bakery{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
